@@ -1,0 +1,14 @@
+touch gitignore (( for ignoring files mentioned in gitignore file))
+git config --global user.name hritik
+git cofig --global user.email chhanganihritik3@gmail.com
+git init (( for initialising the git ))
+git add . (( puting the files excluding the gitignore file in staging area))
+git commit -m "initial commit" (( ))
+git status (( just to see ))
+ssh-keygen -t ed25519 -C "chhanganihritik3@gmail.com"
+
+{cat /home/hritik/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJE6jYKPh8980mNyqFnkIrzHn0IdskKDIti2yDQ/lDMo chhanganihritik3@gmail.com
+}
+git remote add orgin <ssh url.git>
+git push origin master
